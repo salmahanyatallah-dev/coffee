@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us - Coffee World</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+      <div class="container">
+        <div class="logo">☕ Coffee World</div>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+      <div class="container">
+        <h1 class="page-title">Contact Us</h1>
+        <p class="page-subtitle">
+          Have a question or suggestion? We'd love to hear from you!
+          <br />
+          Fill out the form below and we'll get back to you as soon as possible.
+        </p>
+
+        <div class="contact-container">
+          <div class="contact-form-wrapper">
+            <form id="contactForm" class="contact-form">
+              <div class="form-group">
+                <label for="name">Name:</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  required
+                  placeholder="Enter your name"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="email">Email:</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  required
+                  placeholder="Enter your email"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="subject">Subject:</label>
+                <input
+                  type="text"
+                  id="subject"
+                  name="subject"
+                  required
+                  placeholder="Message subject"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="6"
+                  required
+                  placeholder="Write your message here..."
+                ></textarea>
+              </div>
+
+              <button type="submit" class="submit-btn">Send</button>
+            </form>
+
+            <div
+              id="successMessage"
+              class="success-message"
+              style="display: none"
+            >
+              ✓ Thank you! Your message has been received. We'll get back to you
+              soon.
+            </div>
+          </div>
+
+          <div class="contact-info">
+            <h2>Contact Information</h2>
+            <div class="info-item">
+              <h3>📍 Address</h3>
+              <p>Riyadh, Saudi Arabia</p>
+            </div>
+            <div class="info-item">
+              <h3>📞 Phone</h3>
+              <p>+966 50 000 0000</p>
+            </div>
+            <div class="info-item">
+              <h3>✉️ Email</h3>
+              <p>info@coffeeworld.com</p>
+            </div>
+            <div class="info-item">
+              <h3>⏰ Business Hours</h3>
+              <p>
+                Saturday - Thursday: 08:00 - 22:00<br />
+                Friday: 10:00 - 23:00
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2026 Coffee World - All Rights Reserved ☕</p>
+        <div class="footer-links">
+          <a href="about.html">About Us</a>
+          <a href="contact.html">Contact</a>
+          <a href="#">Privacy Policy</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
